@@ -1,0 +1,48 @@
+﻿
+<script type="text/javascript" >
+   function preventBack(){window.history.forward();}
+    setTimeout("preventBack()", 0);
+    window.onunload=function(){null};
+</script>
+<div class="container">
+        <div class="row">
+            <div  class="col-md-6 mx-auto">
+                
+                <div class="card" style="width:28rem; row-gap:5px">
+                    <div class="card-body">
+                    <div class="row">
+                        <div class="col"><center><img width="100" src="https://localhost:7234/imgs/generalUser.jpg" class="card-img-top"/></center></div>
+                    </div>
+                <div class="row">
+                    <div class="col">
+                    <center><h3>Member Login</h3></center>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col"><hr />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <input  style="width:26rem" id="txtUser" type="text" placeholder="User Id"/>
+                        </div>
+                        </div></div>
+                        <div class="row">
+                    <div class="col">
+                         <div class="form-group">
+                             <input style="width:26rem" id="txtPass" type="text" placeholder="Password"
+                              TextMode="Password"/>
+                        </div>
+                        </div></div>
+                    <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <button class="btn btn-success w-100 btn-lg" ID="LoginBtn"  OnClick="LoginBtn_Click()" >Login</button>
+                        </div></div></div>
+</div>
+                    </div>
+                
+            </div>
+        </div>
+        </div>

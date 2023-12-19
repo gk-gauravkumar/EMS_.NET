@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0c728768-0701-4cc7-a7fc-e6d6e71080a2": {
+      "ProjectGuid": "0c728768-0701-4cc7-a7fc-e6d6e71080a2",
+      "DisplayName": "StudentAPI",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "993d546c-7b94-42ec-88b9-a4e45629a58d": {
+      "ProjectGuid": "993d546c-7b94-42ec-88b9-a4e45629a58d",
+      "DisplayName": "ConsumeStudentAPI",
+      "ColorIndex": 1
+    },
+    "919fd655-f067-4ba2-b932-d926e85dd6b4": {
+      "ProjectGuid": "919fd655-f067-4ba2-b932-d926e85dd6b4",
+      "DisplayName": "Script Documents",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

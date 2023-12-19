@@ -1,0 +1,97 @@
+﻿@model IEnumerable<ConsumeStudentAPI.Models.Student>
+
+
+<h1>
+    <label id="title"></label>
+</h1>
+
+<button type="button" id="CreateBtn" onclick="CreateNew()">Create New</button>
+<button  id="updatePg" type="button" onclick="UpdatePage()">Update</button>
+<button id="deletePg" type="button" onclick="DeletePage()">Delete</button>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Phone)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody id="tbStudent">
+@*@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Phone)
+            </td>
+            <td>
+                <button  type="button" onclick="UpdatePage()">Update</button>
+                <button  type="button" onclick="DeletePage()">Delete</button>
+            </td>
+        </tr>
+}
+*@    </tbody>
+</table>
+
+    <table id="form">
+    <tr id="idRow">
+        <td><label>Id</label></td><td><input id="txtId" type="text" /></td>
+    </tr>
+    <tr id="nameRow">
+        <td><label>Name</label></td><td> <input id="txtName" type="text" /></td>
+    </tr>
+    <tr id="addRow">
+        <td><label>Address</label></td><td><input id="txtAddress" type="text"/></td>
+    </tr>
+    <tr id="phoneRow">
+        <td><label>Phone</label></td><td><input id="txtPhone" type="text" /></td>
+    </tr>
+    <tr>
+        <td>
+        <button id="SubmitBtn" type="button" onclick="submitForm()">Submit</button>
+        <button id="UpdateBtn" type="button" onclick="Update()">Update</button>
+        <button id="DeleteBtn" type="button" onclick="Delete()">Delete</button>
+        <button id="CancelBtn" type="button" onclick="Cancel()">Cancel</button>
+        </td>
+    </tr><tr><td>
+        
+<button id="BackBtn" type="button" onclick="GoBack()">Go Back</button>
+    </td></tr>
+</table>
+     @*  <label>Token</label>
+       <input id="txtToken" type="text" /><br />*@
+
+       
+     
+
+
+   @*<button type="button" onclick="get()">get()</button>*@
+ @*
+   <div><h3>Token Generation</h3></div>
+   <div><label>Name</label>
+       <input id="txtUser" type="text" />
+       <label>Phone</label>
+       <input id="txtPass" type="text" /></div>
+   <div><button type="button" onclick="genToken()">Generate Token</button></div>
+   <div>
+       <label id="token"></label>
+   </div>
+   </div>
+*@
